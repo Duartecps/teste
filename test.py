@@ -1,5 +1,19 @@
-h=int(input("Digite um número"))
-l=int(input("Digite outro número"))
+h=int(input("Digite um número  "))
+l=int(input("Digite outro número  "))
 
 total = h+l
-print(total)
+total2 = h-l
+total3 = h*l
+total4 = h/l
+
+pergunta=str(input("Qual operação você deseja realizar? Digite: soma, subtração, multiplicação ou divisão  "))
+if pergunta == "soma":
+    print(total)
+elif pergunta == "subtração":
+    print(total2)
+elif pergunta == "multiplicação":
+    print(total3)
+elif pergunta == "divisão":
+    print(total4)
+else:
+    print("erro)")
